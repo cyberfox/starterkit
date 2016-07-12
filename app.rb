@@ -5,6 +5,8 @@ require 'json'
 enable :sessions
 enable :inline_templates
 
+set :session_secret, 'changeMEasSOONasPOSSIBLE'
+
 SCOPES = [
     'https://www.googleapis.com/auth/userinfo.email',
     'https://www.googleapis.com/auth/userinfo.profile'
